@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #09090b;
+    --card: #ffffff;
+    --card-foreground: #09090b;
+    --popover: #ffffff;
+    --popover-foreground: #09090b;
+    --primary: #2F5D46;
+    --primary-foreground: #ffffff;
+    --secondary: #eef5f1;
+    --secondary-foreground: #2F5D46;
+    --muted: #eef5f1;
+    --muted-foreground: #6b7280;
+    --accent: #dceee4;
+    --accent-foreground: #1e3d2e;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --border: #d1d5db;
+    --input: #d1d5db;
+    --ring: #2F5D46;
+    --chart-1: #2F5D46;
+    --chart-2: #3d7a5c;
+    --chart-3: #1e3d2e;
+    --chart-4: #5a9e78;
+    --chart-5: #88c4a0;
+    --sidebar-background: #eef5f1;
+    --sidebar-foreground: #1e3d2e;
+    --sidebar-primary: #2F5D46;
+    --sidebar-primary-foreground: #ffffff;
+    --sidebar-accent: #dceee4;
+    --sidebar-accent-foreground: #1e3d2e;
+    --sidebar-border: #c2dece;
+    --sidebar-ring: #2F5D46;
+    --radius: 0.5rem;
+    --black: #000000;
+  }
+
+  .dark {
+    --background: #09090b;
+    --foreground: #f4f4f5;
+    --card: #09090b;
+    --card-foreground: #fafafa;
+    --popover: #09090b;
+    --popover-foreground: #fafafa;
+    --primary: #fafafa;
+    --primary-foreground: #18181b;
+    --secondary: #27272a;
+    --secondary-foreground: #fafafa;
+    --muted: #18181b;
+    --muted-foreground: #a1a1aa;
+    --accent: #27272a;
+    --accent-foreground: #fafafa;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --border: #27272a;
+    --input: #27272a;
+    --ring: #3b82f6;
+    --chart-1: #265dd9;
+    --chart-2: #2eaf80;
+    --chart-3: #f28526;
+    --chart-4: #b052e0;
+    --chart-5: #e82669;
+    --sidebar-background: #18181b;
+    --sidebar-foreground: #f4f4f5;
+    --sidebar-primary: #2563eb;
+    --sidebar-primary-foreground: #ffffff;
+    --sidebar-accent: #27272a;
+    --sidebar-accent-foreground: #f4f4f5;
+    --sidebar-border: #27272a;
+    --sidebar-ring: #3b82f6;
+    --black: #000000;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.glow {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
