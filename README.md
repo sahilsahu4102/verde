@@ -4,6 +4,8 @@ The B2B SaaS platform that empowers restaurants and cafes to effortlessly transi
 
 **VERDE (Vegetarian Evolving Restaurant & Dining Ecosystem)** acts as an AI co-pilot for restaurant owners. From automatically reformulating existing recipes to finding local suppliers and generating Instagram-ready marketing videos, VERDE handles the heavy lifting of modernizing a restaurant's menu for the growing flexitarian audience.
 
+🎥 **[Watch the demo video](https://drive.google.com/file/d/1p7ZdAH4SsN5EH7uM0-u_OaaJhlHpx0Sj/view?usp=sharing)**
+
 ---
 
 ## ✨ Features
